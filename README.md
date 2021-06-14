@@ -1,10 +1,11 @@
 # Etherspot SDK examples
 
 These examples show how to combine the sdk calls to perform common functions.
-
 ## Prerequisites
 
-* Start [local infra](https://github.com/etherspot/etherspot-infra) 
+```bash
+npm install
+```
 
 ## Usage
 
