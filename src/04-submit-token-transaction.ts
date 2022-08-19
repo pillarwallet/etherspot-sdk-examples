@@ -37,7 +37,7 @@ async function main(): Promise<void> {
   console.log('Encoded function call ',encodedData);
   //this method will add the transaction to a batch, which has to be executed later.
   const transaction = await sdk.batchExecuteAccountTransaction({
-    to: receiver,//wallet address
+    to: tokenAddress,// ERC20 Address
     data: encodedData,
   });
 
